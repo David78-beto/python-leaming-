@@ -1,47 +1,85 @@
 
-clase 1
+Clase 1
 Actividad 1
+En Python no se utiliza el punto y coma (;).
 
-En python no se utiliza el punto y coma 
-#-----------------------------------------------------------
-Un compilador es un programa que traduce código fuente de un lenguaje de programación a código máquina para que la computadora lo ejecute.
+Compilador vs. Intérprete
+Compilador: Es un programa que traduce el código fuente de un lenguaje de programación a código máquina para que la computadora lo ejecute.
+Intérprete: Es un programa que traduce y ejecuta el código fuente línea por línea, sin generar un archivo de código máquina.
+Actividad 2: Variables
+Una variable es un espacio en la memoria donde se almacenan datos que un programa puede utilizar y recuperar.
 
-Un intérprete es un programa que traduce y ejecuta el código fuente línea por línea, sin generar un archivo de código máquina.
-#--------------------------------------------------------------
-Actividad 2
-que es una Variables
-es un epcacio de la memoria donde se guardan y se recuperan datos que utliza un programa
-Cada una debe tener un nombre en el cual pueda identificarse y referirse a ella.
-El nombre de una variable no puede coincidir con los nombres de los comandos asignados, este no debera contener espaciosen blanco, es decir que no se podria llamar print o nom bre 
-Los mas comunes son los que almacenan nombre texto (strings(str)) este siempre se encuentra entre comillas  o numeros (int o float)
-#----------------------------------------------------------------
------CADA QUE SE PONE COMILLAS ES STRING
-clase 2 
-manipulacion de cadena de caracter: conocidas como STRING es una serie de caracteres compuestas por letras, numeros, signos y simbolos interacciion de programas con usarios exixten diferentes operaciones para manipular STRING.
-La asignacion consiste en asignar una cadena de caracter para la cual se utiliza += 
-Actividad 1 
+Reglas para nombrar variables:
+Cada variable debe tener un nombre único para poder identificarse.
+No puede tener espacios en blanco (por ejemplo, nombre_completo en lugar de nom bre).
+No puede utilizar nombres reservados de Python como print, if, while, etc.
+Tipos de datos comunes en variables:
+String (str): Almacena texto y siempre se encuentra entre comillas ("texto" o 'texto').
+Enteros (int): Almacenan números enteros (ejemplo: 10, -5).
+Flotantes (float): Almacenan números decimales (ejemplo: 3.14, -2.5).
+📌 Nota: Siempre que se usan comillas ("" o ''), el valor se considera un String.
+#---------------------------------------------------------------------------------------------------------------------------------------------------------
+Clase 2: Manipulación de Cadenas (Strings)
+Un String es una serie de caracteres que pueden incluir letras, números, signos y símbolos. En Python, existen diversas operaciones para manipularlos.
+
+Actividad 1: Asignación de Strings
+La asignación de cadenas consiste en almacenar texto dentro de una variable. También se pueden modificar usando +=.
+
+python
+Copiar
+Editar
 mensaje = "Hola"
-#este pedaso es solo para un espacio o dejar en blanco
-mensaje +=" "
+mensaje += " "  # Agrega un espacio en blanco
+mensaje += "David"
 
-mensaje+="David"
-print(mensaje)
-#Actividad ejemplo
- #----------------------------------------------------------------
- La concatenacion: es una operacion que consiste en unir dos cadenas o mas, para formar una cadena de mayor tamaño para lo cuak se utiliza el operador (+)
-actividad 2 
-"""ejemplo 
+print(mensaje)  # Salida: Hola David
+
+Concatenación de Cadenas
+La concatenación consiste en unir dos o más cadenas para formar una más grande. Se utiliza el operador +.
+
+Ejemplo de Concatenación
+python
+Copiar
+Editar
 numero_uno = 4
 numero_dos = 6
-resultado = numero_uno + numero_dos
-resultado = str(resultado)
-/////Para cambiar de String a Entero
-numero_uno = int (numero_uno)
+resultado = numero_uno + numero_dos  # Resultado: 10
+resultado = str(resultado)  # Convertimos el número a String
 
-print("el resultado de la suma es:" + resultado)"""
-#----------------------------------------------------------------
-Que es la Busqueda consiste en localizar dentro de una cadena 
-#----------------------------------------------------------------
-Que es la extraccion: se trata de sacar fuera de una cadena una porcion de la misma segun su posicion dentro de ella para ello es necesario indicar la posicion a estraer [1:8]
-#----------------------------------------------------------------
-La comparacion: se utiliza para comnparar dos cadenas de caracteres, para ello se utiliza el operador (==)
+print("El resultado de la suma es: " + resultado)
+📌 Nota: Para convertir un String a Entero, usamos int().
+
+python
+Copiar
+Editar
+numero_uno = int(numero_uno)  # Convierte a entero
+
+Búsqueda en Cadenas
+La búsqueda consiste en localizar una palabra o un carácter dentro de una cadena.
+
+Extracción de Subcadenas
+La extracción permite obtener una parte de una cadena según su posición. Se usa la notación [inicio:fin].
+
+Ejemplo:
+
+python
+Copiar
+Editar
+cadena = "Python es increíble"
+subcadena = cadena[0:6]  # Extrae "Python"
+print(subcadena)
+
+Comparación de Cadenas
+Se utiliza para comparar dos cadenas de texto con el operador ==.
+
+Ejemplo:
+
+python
+Copiar
+Editar
+cadena1 = "Hola"
+cadena2 = "Hola"
+
+print(cadena1 == cadena2)  # Devuelve True si son iguales, False si no lo son
+
+#---------------------------------------------------------------------------------------------------------------
