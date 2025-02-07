@@ -35,7 +35,7 @@ print(mensaje1==mensaje2)
 mensaje3 = "Esta casa es fea"
 mensaje4 = "Esta casa es linda"
 print(mensaje3==mensaje4)
-#----------------------------------------------------------------
+#----------------------------------------------------------------3/02/2025
 #Actividad Repaso
 """hacer una aplicación en la cual me muestre una suma, resta en el siguiente orden y se tiene que comentar todo 
 
@@ -83,3 +83,30 @@ print (mensaje_licuadora1.find("licuadora"))
 print (mensaje_plancha.find("plancha"))
 #comparar los mensajes de true o false
 print (mensaje_licuadora1 == mensaje_plancha)
+#----------------------------------------------------------------------------------------------------------6/02/2025
+#Repaso
+# definir 2 varibles con string
+numero3 = "8"
+numero4 = "10"
+#Cambiarlas a int 
+numero3 = int (numero3)
+numero4 = int (numero4)
+#hacer la opracion 
+resultado_multiplicacion = numero3 * numero4
+#mandarla a la teriminal 
+print ("El resultado de la multiplicacion es: " + str(resultado_multiplicacion))
+
+#asignación mensaje
+#hacemos un mensaje con asignacion 
+mensaje_hoy = "Hola"
+mensaje_hoy += " "
+mensaje_hoy += "estamos"
+mensaje_hoy += " "
+mensaje_hoy += "repasando"
+#lo mandadmos a la terminal 
+print(mensaje_hoy) 
+#hacemos 2 mensajes iguales para que en la comparacion salga TRUE
+mensaje_comparacion1 = "Esta esta muy linda"
+mensaje_comparacion2 = "Esta esta muy linda"
+#lo mandamos ala terminal
+print(mensaje_comparacion1 == mensaje_comparacion2) 
